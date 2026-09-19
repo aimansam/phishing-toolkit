@@ -29,19 +29,19 @@ pip install -e .
 Analyze an email file:
 
 ```bash
-python phishauditor.py email.eml
+phishadvisor --email email.eml
 ```
 
 Analyze raw email text:
 
 ```bash
-python phishauditor.py --raw "From: bank@example.com..."
+phishadvisor --headers "From: bank@example.com" --body "..."
 ```
 
 Analyze with verbose output:
 
 ```bash
-python phishauditor.py email.eml --verbose
+phishadvisor --email email.eml --verbose
 ```
 
 ## API Usage
@@ -64,4 +64,3 @@ for finding in result.findings:
 ## License
 
 MIT
-

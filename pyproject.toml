@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phishadvisor"
+version = "1.0.0"
+description = "Heuristic phishing-email analysis toolkit"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+phishadvisor = "phishauditor:main"
+
+[tool.setuptools]
+py-modules = ["phishauditor"]
