@@ -1,11 +1,14 @@
 # Phishing Toolkit
 
 ```text
- ___ _  _ ___ ___ _  _ 
-| _ \ || |_ _/ __| || |
-|  _/ __ || |\__ \ __ |
-|_| |_||_|___|___/_||_|
-                       
+______ _   _ _____ _____ _   _ 
+| ___ \ | | |_   _/  ___| | | |
+| |_/ / |_| | | | \ `--.| |_| |
+|  __/|  _  | | |  `--. \  _  |
+| |   | | | |_| |_/\__/ / | | |
+\_|   \_| |_/\___/\____/\_| |_/
+                               
+                               
 ```
 
 Phishing email analysis toolkit in Python. Parse and analyze email headers, body content, URLs, and attachments to detect phishing indicators.
